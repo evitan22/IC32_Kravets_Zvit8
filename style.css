@@ -1,0 +1,78 @@
+th {
+    background-color: grey;
+}
+
+.button {
+    font-size: 17px;
+    padding: 15px 30px 15px;
+    background: greenyellow;
+    cursor: pointer;
+    margin: 5px 0 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgba(201, 195, 159, 0.295);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button2 {
+    width: 300px;
+    font-size: 17px;
+    padding: 5px;
+    background: greenyellow;
+    cursor: pointer;
+    margin: 5px 0 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.button2:hover {
+    background-color: rgba(201, 195, 159, 0.295);
+}
+
+.main-left, .main-right {
+    float: left;
+}
+
+.main-left {
+    width: 400px;
+}
+
+.main-right {
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.main-container::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.sublist {
+    list-style: none;
+    margin: 1px;
+}
+
+.tema {
+    text-transform: lowercase;
+}
+
+.button2 {
+    text-align: center;
+}
+
